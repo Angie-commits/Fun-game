@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="game.js"></script>
+    <div class="game-container">
+      <div class="header">
+        <div class="title">© Angie kj Computer 4 1 Player</div>
+        <div class="score">
+          Computer: <span id="computer-score">0</span> | Player:
+          <span id="player-score">0</span>
+        </div>
+      </div>
+
+      <div class="computer-section">
+        <div class="computer-label">Computer</div>
+        <div class="choice-display" id="computer-choice">✌️</div>
+      </div>
+
+      <div class="result-banner" id="result-banner">Make your choice!</div>
+
+      <div class="player-section">
+        <div class="player-label">Player</div>
+        <div class="choice-display" id="player-choice">✊</div>
+      </div>
+
+      <div class="buttons">
+        <button class="choice-btn" onclick="playGame('rock')">
+          <div class="choice-icon">✊</div>
+          <div>Rock</div>
+        </button>
+        <button class="choice-btn" onclick="playGame('paper')">
+          <div class="choice-icon">✋</div>
+          <div>Paper</div>
+        </button>
+        <button class="choice-btn" onclick="playGame('scissors')">
+          <div class="choice-icon">✌️</div>
+          <div>Scissors</div>
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

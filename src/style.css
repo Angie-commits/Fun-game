@@ -1,0 +1,121 @@
+body {
+       margin: 0;
+       padding: 20px;
+       font-family: Arial, sans-serif;
+       background-color: #8BC34A;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       min-height: 100vh;
+     }
+
+.game-container {
+       width: 400px;
+       background-color: #8BC34A;
+       border-radius: 10px;
+       padding: 20px;
+       position: relative;
+     }
+
+.header {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       margin-bottom: 30px;
+       color: #333;
+       font-weight: bold;
+     }
+
+ .title {
+       font-size: 16px;
+     }
+
+ .score {
+       font-size: 16px;
+     }
+
+ .computer-section {
+       text-align: center;
+       margin-bottom: 20px;
+    }
+
+ .computer-label {
+       color: #333;
+       font-weight: bold;
+       margin-bottom: 10px;
+       font-size: 14px;
+     }
+
+ .choice-display {
+        width: 80px;
+        height: 80px;
+        border: 2px dashed #666;
+        background-color: #9CCC65;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        font-size: 40px;
+     }
+
+ .result-banner {
+        background-color: #FFC107;
+        color: #333;
+        text-align: center;
+        padding: 15px;
+        margin: 30px 0;
+        font-weight: bold;
+        font-size: 18px;
+        text-transform: uppercase;
+        min-height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+     }
+
+ .player-section {
+         text-align: center;
+         margin-bottom: 30px;
+     }
+
+ .player-label {
+          color: #333;
+          font-weight: bold;
+           margin-bottom: 10px;
+           font-size: 14px;
+        }
+
+ .buttons {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+       }
+
+ .choice-btn {
+         width: 80px;
+         height: 80px;
+         background-color: #E8F5E8;
+         border: 1px solid #666;
+         cursor: pointer;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         font-size: 12px;
+         font-weight: bold;
+         color: #333;
+        transition: background-color 0.2s;
+     }
+
+ .choice-btn:hover {
+         background-color: #D4EDDA;
+       }
+
+ .choice-btn:active {
+         background-color: #C3E6CB;
+       }
+
+ .choice-icon {
+         font-size: 30px;
+         margin-bottom: 5px;
+       }
